@@ -1,4 +1,63 @@
 <div class="col-sm-10" style="margin: 0 auto;">
+
+
+    <form class="example-form">
+
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Company name</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Position</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                </td>
+            </tr>
+        </table>
+
+        <p>
+            <mat-form-field class="example-full-width">
+                <mat-label>Job URL</mat-label>
+                <input matInput #postalCode>
+            </mat-form-field>
+        </p>
+
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Status</mat-label>
+                        <input matInput placeholder="Applied">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Location</mat-label>
+                        <input matInput placeholder="USA">
+                    </mat-form-field>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Description</mat-label>
+                        <textarea matInput placeholder="Additional Notes (optional)"></textarea>
+                        <mat-hint align="end">Recruiter contact/Notes</mat-hint>
+                    </mat-form-field>
+                </td>
+            </tr>
+        </table>
+        <div align="end"><button mat-raised-button>Add</button></div>
+
+
+    </form>
+
+    <hr>
     <div class="col-sm-5">
         <mat-form-field>
             <mat-label>Filter</mat-label>

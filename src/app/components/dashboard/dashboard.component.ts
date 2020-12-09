@@ -26,7 +26,6 @@ export class DashboardComponent implements OnInit {
 
   }
 
-
   ngOnInit(): void {
     this.jobAppService.getAllJobApplications().subscribe(
       response => {

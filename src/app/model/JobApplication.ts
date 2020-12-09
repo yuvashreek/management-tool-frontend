@@ -9,5 +9,4 @@ export interface JobApplication {
     createdAt?: Date;
     updatedAt?: Date;
     jobUrl?: String;
-
 }
