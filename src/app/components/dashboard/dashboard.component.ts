@@ -15,7 +15,7 @@ export class DashboardComponent implements OnInit {
   jobApps: JobApplication[];
 
   dataSource: MatTableDataSource<JobApplication>;
-  displayedColumns: string[] = ['jobNumber', 'companyName', 'positionTitle', 'status'];
+  displayedColumns: string[] = ['jobNumber', 'companyName', 'positionTitle', 'status', 'edit', 'delete'];
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
