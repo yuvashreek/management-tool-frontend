@@ -1,4 +1,4 @@
-export interface JobApplication {
+export class JobApplication {
     //followed the same naming convention as backend contracts
     jobNumber?: Number;
     companyName?: String;
